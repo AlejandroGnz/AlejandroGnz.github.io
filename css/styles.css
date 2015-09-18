@@ -1,0 +1,150 @@
+*{
+  font-family: 'Kaushan Script', cursive;
+}
+body{
+  background-color: #245269;
+}
+.toggleb{
+  display: none;
+  background: #fff;
+  color: #001f3f;
+  text-align: center;
+  height: calc(100vh - 50px);
+
+}
+.contactar{
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+.contactar h3 ,.contactar h3 span{
+  cursor: default; 
+  font-size: 25px;
+}
+.circle{
+  border-radius: 50%;
+  background-color: rgb(67, 87, 103);
+}
+.circle span{
+  color: #ffffff;
+  font-size: 50px;
+}
+.main .container{
+  color: rgb(217, 160, 75);
+}
+.main .container-fluid{
+  background-color: rgb(220, 60, 60);
+}
+.container-fluid>h1{
+  color: rgb(217, 160, 75);
+}
+.sep{
+  padding-top: 20px;
+  background-color: rgb(60, 217, 160);
+  height: 500px;
+}
+ul>li{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
+}
+ul>li>span{
+  visibility: hidden;
+  background-color: rgb(26, 159, 100);
+  width: 85%;
+  height: 5px;
+  margin: auto;
+}
+ul>li:hover>span:hover{
+  visibility: hidden;
+}
+ul>li:hover>span{
+  display: block;
+  position: relative;
+  visibility:visible;
+  margin: auto;
+  margin-top: -5px;
+}
+.cono{
+  background-color: rgb(113, 36, 184);
+}
+.red{
+  background-color: rgb(220, 60, 60);
+}
+.blue{
+  background-color: rgb(61, 91, 221);
+}
+.yell{
+  background-color: rgb(179, 221, 61);
+}
+.pink{
+  background-color: rgb(195, 49, 128);
+}
+.row>div>div>h1{
+  border-top: 5px solid #fff;
+  background-color: rgb(220, 60, 60);
+}
+.hexagon {
+  position: relative;
+  width: 250px;
+  height: 144.34px;
+  background-color: #64C7CC;
+  margin: 72.17px 12%;
+}
+.hexagon span{
+  position: absolute;
+  margin: 0 px;
+  font-size: 80px;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 72.17px solid #64C7CC;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 72.17px solid #64C7CC;
+}
+.navbar-custom {
+	background-color:#337ab7;
+    color:#ffffff;
+  	border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+  	color:#fff;
+  	padding-left:20px;
+  	padding-right:20px;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+	background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #31708f;
+}
+
+.navbar-custom .navbar-brand {
+  	color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+  	background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+  	background-color:#31708f;
+}
