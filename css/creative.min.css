@@ -43,6 +43,7 @@ p {
 .bg-dark {
   background-color: #222;
   color: white;
+  height: calc(100vh - 50px);
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
@@ -266,6 +267,7 @@ header .header-content .header-content-inner p {
   color: #40bbe5;
 }
 .no-gutter > [class*='col-'] {
+  overflow: hidden;
   padding-right: 0;
   padding-left: 0;
 }
